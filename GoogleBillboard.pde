@@ -7,8 +7,7 @@ public void setup()
     double dNum = Double.parseDouble(b);
     if (isPrime(dNum) == true)
     {
-      System.out.print("Prime");
-      System.out.println(" " + dNum);
+      System.out.println(dNum);
       break;
     }
   }
